@@ -31,6 +31,8 @@ Back to AnswerIntent and add a slot called Answer with the slot type drop down s
 At the time of writing this a built in repeat intent may need to be added also as this is not always included by default.
 Utterances like 'Repeat', 'Repeat please' etc will need to be added for this intent.
 
+![intents and slots](https://github.com/OcelotDive/FreeCodeCampTriviaQuiz/blob/master/images/slots.PNG)
+
 Finally under invocation set up an invocation to initiate the app when using an Echo or the Alexa simulator.
 
 ### Current Question set files
