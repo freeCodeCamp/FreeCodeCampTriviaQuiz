@@ -1,5 +1,5 @@
-# FreeCodeCampTriviaQuiz
-An Alexa skill developed for the FreeCodeCamp community
+![adding triggers]()  # FreeCodeCampTriviaQuiz
+                      An Alexa skill developed for the FreeCodeCamp community
 
 
 ### The Project
