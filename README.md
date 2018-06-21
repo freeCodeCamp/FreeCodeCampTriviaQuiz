@@ -1,4 +1,4 @@
- ![alt text](https://github.com/OcelotDive/FreeCodeCampTriviaQuiz/tree/master/images/ffc.jpeg)
+ ![](https://github.com/OcelotDive/FreeCodeCampTriviaQuiz/blob/master/images/ffc.jpeg)
  
  # FreeCodeCampTriviaQuiz
  An Alexa skill developed for the FreeCodeCamp community
