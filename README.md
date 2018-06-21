@@ -1,5 +1,7 @@
-# FreeCodeCampTriviaQuiz
-An Alexa skill developed for the FreeCodeCamp community
+
+
+ # FreeCodeCampTriviaQuiz
+ An Alexa skill developed for the FreeCodeCamp community
 
 
 ### The Project
@@ -14,7 +16,7 @@ Next an Amazon Web Services account is also need to set up a new Lambda funtion 
 
 After creating and naming a Lambda function click on add triggers and from the list select Alexa skills kit.
 
-![adding triggers]()
+![adding triggers](https://github.com/OcelotDive/FreeCodeCampTriviaQuiz/blob/master/images/awsTriggers.PNG)
 
 If starting with this repo,  click code entry type and select import zip file, otherwise a Lambda blueprint can be used
 to bootstrap the function rather than start from scratch.
@@ -28,6 +30,8 @@ Then under slots add a slot called Answer, and create four values 1,2,3,4 (the a
 Back to AnswerIntent and add a slot called Answer with the slot type drop down set to Answer the slot just created.
 At the time of writing this a built in repeat intent may need to be added also as this is not always included by default.
 Utterances like 'Repeat', 'Repeat please' etc will need to be added for this intent.
+
+![intents and slots](https://github.com/OcelotDive/FreeCodeCampTriviaQuiz/blob/master/images/slots.PNG)
 
 Finally under invocation set up an invocation to initiate the app when using an Echo or the Alexa simulator.
 
