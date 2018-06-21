@@ -16,7 +16,7 @@ Next an Amazon Web Services account is also need to set up a new Lambda funtion 
 
 After creating and naming a Lambda function click on add triggers and from the list select Alexa skills kit.
 
-![adding triggers]()
+![adding triggers](https://github.com/OcelotDive/FreeCodeCampTriviaQuiz/blob/master/images/awsTriggers.PNG)
 
 If starting with this repo,  click code entry type and select import zip file, otherwise a Lambda blueprint can be used
 to bootstrap the function rather than start from scratch.
