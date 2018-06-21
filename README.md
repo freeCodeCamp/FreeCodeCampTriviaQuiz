@@ -1,7 +1,7 @@
- ![](https://github.com/OcelotDive/FreeCodeCampTriviaQuiz/blob/master/images/ffc.jpeg)   # FreeCodeCampTriviaQuiz
-                                                                                         An Alexa skill developed for the FreeCodeCamp                                                                                            community
- 
+                          ![](https://github.com/OcelotDive/FreeCodeCampTriviaQuiz/blob/master/images/ffc.jpeg)  
 
+ # FreeCodeCampTriviaQuiz
+ An Alexa skill developed for the FreeCodeCamp community
 
 
 ### The Project
