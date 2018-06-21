@@ -1,5 +1,7 @@
-![adding triggers]()  # FreeCodeCampTriviaQuiz
-                      An Alexa skill developed for the FreeCodeCamp community
+ ![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+ 
+ # FreeCodeCampTriviaQuiz
+ An Alexa skill developed for the FreeCodeCamp community
 
 
 ### The Project
