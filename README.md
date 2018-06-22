@@ -55,3 +55,5 @@ When testing with the Alexa simulator in the Amazon developer console, if you re
 Copy and paste the Json output from the simulator. Back in AWS choose configure test events from the drop down at the top and paste in the  Json output, name the test event and save.
 The information provided from the test debug results can save a lot of time blindly searching for the cause of any error.
 
+The newly developed skill will also be available for you to test with your voice activated device. Amazon will automatically
+transfer your under development skill to the online version of the alexa app http://alexa.amazon.com Sign in with your Amazon account and you can enable for your device just like any other skill.
