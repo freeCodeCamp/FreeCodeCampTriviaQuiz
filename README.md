@@ -18,6 +18,9 @@ After creating and naming a Lambda function click on add triggers and from the l
 
 ![adding triggers](https://github.com/OcelotDive/FreeCodeCampTriviaQuiz/blob/master/images/awsTriggers.PNG)
 
+You will also have to create an execution role from the drop down, if it is the first time creating a function choose custom
+role and follow the instructions.
+
 If starting with this repo,  click code entry type and select import zip file, otherwise a Lambda blueprint can be used
 to bootstrap the function rather than start from scratch.
 
