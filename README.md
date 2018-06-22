@@ -12,7 +12,7 @@ FreeCodeCamp. The skill will ask ten questions on your chosen subject and mix in
 ### Initial setup and development environment
 First off setup of an Amazon developer console account is required. https://developer.amazon.com/
 This is super easy if you are already signed up to an amazon account.
-Next an Amazon Web Services account is also need to set up a new Lambda funtion or alter an existing one. https://aws.amazon.com/
+Next an Amazon Web Services account is also needed to set up a new Lambda funtion or alter an existing one. https://aws.amazon.com/
 
 After creating and naming a Lambda function click on add triggers and from the list select Alexa skills kit.
 
