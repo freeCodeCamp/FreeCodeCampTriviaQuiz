@@ -173,14 +173,7 @@ module.exports = {
                 '443',
             ],
         },
-        {
-            'Which of the following is not a type of network?': [
-                ' N A N, or NAN,',
-                'P A N, or PAN,',
-                'M A N, or MAN,',
-                'L A N, or LAN,',
-            ],
-        },
+       
         {
             'What is a sub net mask used for?': [
                 'To identyfy the extended network and host address',
@@ -393,14 +386,7 @@ module.exports = {
                 '443',
             ],
         },
-        {
-            'Which of the following is not a type of network?': [
-                'N A N or, NAN',
-                'P A N or, PAN',
-                'M A N or, MAN',
-                'L A N or, LAN',
-            ],
-        },
+       
         {
             'What is a sub net mask used for?': [
                 'To identyfy the extended network and host address',
