@@ -100,7 +100,109 @@ module.exports = {
             
             ],
         },
-      
+        
+        //added 04/07/18
+         {
+            'Which in the following list is the odd one out ?': [
+                'Array',
+                'Boolean',
+                'Character',
+                'Null',
+
+            ],
+        },
+        {
+            'Which is true, in relation to e s 6 arrow functions?': [
+                'If written on a single line, they require no return statement.',
+                'Arrow functions must! not be anonymous',
+                'Can only be used in conjunction with the use strict statement',
+                'Will always return null',
+                'Must never be used as callback functions',
+
+            ],
+        },
+        {
+            'Which is not a string method in javascript?': [
+                'Splice',
+                'Concat',
+                'Replace',
+                'Match',
+                'index of',
+
+            ],
+        },
+        {
+            'The resolve and reject methods are typically associated with which of the following?, ': [
+                'Promise',
+                'Array',
+                'Prototype',
+                'Parameter',
+                'Hash Table',
+
+            ],
+        },
+        {
+            'Number type 2, + Number type 2, + String type 8, will return?': [
+                'String  48',
+                'String  228',
+                'Number  228',
+                'Number  48',
+                'undefined',
+
+            ],
+        },
+
+
+
+        {
+            'How would you write a single line comment in Javascript?': [
+                'Preceeded by forward slash, forward slash',
+                'Preceeded by a semi colon',
+                'Enclosed in back ticks',
+                'Enclosed within a tag',
+
+            ],
+        },
+        {
+            'Which Javascript H t m l Dom Event occurs when a user hovers their mouse over an element on a page?': [
+                'On mouse over.',
+                'On mouse hover',
+                'On mouse down',
+                'On focus',
+                'On place',
+
+            ],
+        },
+        {
+            'Which Math function, given the input of 4.7, wil return 4? ': [
+                'Math.floor',
+                'Math.abs',
+                'Math.ceil',
+                'Math.pow',
+                'Math.comp',
+
+            ],
+        },
+        {
+            'Which Math function, will return the number with the lowest value given a set of numerical parameters? ': [
+                'Math.min.',
+                'Math.floor.',
+                'Math.cos.',
+                'Math.round.',
+                'Math.pow.',
+
+            ],
+        },
+        {
+            'Which javascript event relates to images?': [
+                'On error',
+                'On resize',
+                'On focus',
+                'On change',
+                'On blur',
+
+            ],
+        },
       
      
 
@@ -200,6 +302,112 @@ module.exports = {
             
             ],
         },
+        
+        //added 04/07/18
+        
+         {
+            'Which in the following list is the odd one out ?': [
+                'Array',
+                'Boolean',
+                'Character',
+                'Null',
+
+            ],
+        },
+        {
+            'Which is true, in relation to e s 6 arrow functions?': [
+                'If written on a single line, they require no return statement.',
+                'Arrow functions must! not be anonymous',
+                'Can only be used in conjunction with the use strict statement',
+                'Will always return null',
+                'Must never be used as callback functions',
+
+            ],
+        },
+        {
+            'Which is not a string method in javascript?': [
+                'Splice',
+                'Concat',
+                'Replace',
+                'Match',
+                'index of',
+
+            ],
+        },
+        {
+            'The resolve and reject methods are typically associated with which of the following?, ': [
+                'Promise',
+                'Array',
+                'Prototype',
+                'Parameter',
+                'Hash Table',
+
+            ],
+        },
+        {
+            'Number type 2, + Number type 2, + String type 8, will return?': [
+                'String  48',
+                'String  228',
+                'Number  228',
+                'Number  48',
+                'undefined',
+
+            ],
+        },
+
+
+
+        {
+            'How would you write a single line comment in Javascript?': [
+                'Preceeded by forward slash, forward slash',
+                'Preceeded by a semi colon',
+                'Enclosed in back ticks',
+                'Enclosed within a tag',
+
+            ],
+        },
+        {
+            'Which Javascript H t m l Dom Event occurs when a user hovers their mouse over an element on a page?': [
+                'On mouse over.',
+                'On mouse hover',
+                'On mouse down',
+                'On focus',
+                'On place',
+
+            ],
+        },
+        {
+            'Which Math function, given the input of 4.7, wil return 4? ': [
+                'Math.floor',
+                'Math.abs',
+                'Math.ceil',
+                'Math.pow',
+                'Math.comp',
+
+            ],
+        },
+        {
+            'Which Math function, will return the number with the lowest value given a set of numerical parameters? ': [
+                'Math.min.',
+                'Math.floor.',
+                'Math.cos.',
+                'Math.round.',
+                'Math.pow.',
+
+            ],
+        },
+        {
+            'Which javascript event relates to images?': [
+                'On error',
+                'On resize',
+                'On focus',
+                'On change',
+                'On blur',
+
+            ],
+        },
+        
+        
     ],
    
     

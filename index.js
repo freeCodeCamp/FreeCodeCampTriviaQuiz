@@ -2,13 +2,7 @@
 /* eslint-disable  dot-notation */
 /* eslint-disable  new-cap */
 /* eslint quote-props: ['error', 'consistent']*/
-/**
- * This sample demonstrates a simple skill built with the Amazon Alexa Skills
- * nodejs skill development kit.
- * This sample supports en-US lauguage.
- * The Intent Schema, Custom Slots and Sample Utterances for this skill, as well
- * as testing instructions are located at https://github.com/alexa/skill-sample-nodejs-trivia
- **/
+
 
 'use strict';
 

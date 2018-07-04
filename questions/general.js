@@ -1,7 +1,10 @@
 'use strict';
 
 module.exports = {
-   
+    /**
+     * When editing your questions pay attention to your punctuation. Make sure you use question marks or periods.
+     * Make sure the first answer is the correct one. Set at least ANSWER_COUNT answers, any extras will be shuffled in.
+     */
     QUESTIONS_EN_GB: [
          {
             'Which of the following is not a common sorting algorithm?': [
@@ -90,7 +93,7 @@ module.exports = {
                 '64 bits',
                 '16 bits',
                 '32 bits',
-                '126 bits',
+                '128 bits',
                 '256 bits',
             ],
         },
@@ -170,11 +173,18 @@ module.exports = {
                 '443',
             ],
         },
-       
+        {
+            'Which of the following is not a type of network?': [
+                ' N A N, or, NAN,',
+                'P A N, or, PAN,',
+                'M A N, or, MAN,',
+                'L A N, or, LAN,',
+            ],
+        },
         {
             'What is a sub net mask used for?': [
-                'To identyfy the extended network and host address',
-                'To hide the id of a wireless access point',
+                'To identify the extended network and host address',
+                'To hide the identity of a wireless access point',
                 'To encrypt the broadcasting of ip addresses',
                 'To connect to a, v p n',
             ],
@@ -303,7 +313,7 @@ module.exports = {
                 '64 bits',
                 '16 bits',
                 '32 bits',
-                '126 bits',
+                '128 bits',
                 '256 bits',
             ],
         },
@@ -383,11 +393,18 @@ module.exports = {
                 '443',
             ],
         },
-       
+        {
+            'Which of the following is not a type of network?': [
+                'N A N or, NAN',
+                'P A N or, PAN',
+                'M A N or, MAN',
+                'L A N or, LAN',
+            ],
+        },
         {
             'What is a sub net mask used for?': [
-                'To identyfy the extended network and host address',
-                'To hide the id of a wireless access point',
+                'To identify the extended network and host address',
+                'To hide the identity of a wireless access point',
                 'To encrypt the broadcasting of ip addresses',
                 'To connect to a, v p n',
             ],
