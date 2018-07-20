@@ -57,7 +57,7 @@ module.exports = {
         {
             'Which is not a valid C s s font size?': [
                 'nodes',
-                'em\'s',
+                'em',
                 'Percentage',
                 'pixels',
             ],
@@ -127,6 +127,71 @@ module.exports = {
                 'Static',
                 'inherit',
                 'Fixed',
+            ],
+        },
+                    ],
+        },
+        {
+            'In C s s, how would you group multiple selectors to one rule set?': [
+                'Separate each selector with a comma',
+                'Separate each selector with a plus sign',
+                'Separate each selector with a space',
+                'Separate each selector with a hyphen',
+                'Separate each selector with a period',
+
+            ],
+        },
+
+
+
+        {
+            'Which property in c s s, is used to change the face of a font?': [
+                'Font family',
+                'Font weight',
+                'Font style',
+                'Font type',
+                'Font display',
+
+            ],
+        },
+        {
+            'Which is the default display property in c s s?': [
+                'Static',
+                'Sticky',
+                'Relative',
+                'Fixed',
+                'Absolute',
+
+            ],
+        },
+        {
+            'In c s s which value would you assign to, the overflow property, to stop contents spilling out from its container element?': [
+                'Hidden',
+                'No wrap',
+                'Invisible',
+                'Hide',
+                'Scroll',
+
+            ],
+        },
+        {
+            'The value of, Initial, set on a c s s property normally does what? ': [
+                'Sets the property to its default value.',
+                'Sets the property to a previous value.',
+                'Sets the property to null or zero',
+                'Sets the property to the value of a variable',
+                'The property Initial is only used, in c s s preprocessors',
+
+            ],
+        },
+        {
+            'The c s s resize property does what?': [
+                'defines if and how an element is resizable by the user',
+                'defines if and how an element is resizable by the browser',
+                'Resizes an element by the unit value stated',
+                'Is used for animations',
+                'Only applies to elements where overflow is visible',
+
             ],
         },
 
@@ -183,7 +248,7 @@ module.exports = {
         {
             'Which is not a valid C s s font size?': [
                 'nodes',
-                'em\'s',
+                'em',
                 'Percentage',
                 'pixels',
             ],
@@ -253,6 +318,113 @@ module.exports = {
                 'Static',
                 'inherit',
                 'Fixed',
+            ],
+        },
+        
+        //new questions added 20/07/18
+          {
+            'Which in the following list is not a common c s s border style ?': [
+                'Curved',
+                'Dotted',
+                'Solid',
+                'Groove',
+                'Dashed',
+                'Ridged',
+
+            ],
+        },
+        {
+            'Which is not,  a c s s transform method ?': [
+                'Interpolate.',
+                'Translate',
+                'Scale',
+                'Matrix',
+                'Skew x',
+
+            ],
+        },
+        {
+            'Which html tag should be used to refer to an external c s s file ?': [
+                'Link',
+                'Style',
+                'Script',
+                'Stylesheet',
+                'Meta',
+
+            ],
+        },
+        {
+            'Which symbol is used to precede a c s s, i d name ?, ': [
+                'Hash',
+                'Dollar symbol',
+                'carat',
+                'Period',
+                'tilde',
+                'Asterisk',
+
+            ],
+        },
+        {
+            'In C s s, how would you group multiple selectors to one rule set?': [
+                'Separate each selector with a comma',
+                'Separate each selector with a plus sign',
+                'Separate each selector with a space',
+                'Separate each selector with a hyphen',
+                'Separate each selector with a period',
+
+            ],
+        },
+
+
+
+        {
+            'Which property in c s s, is used to change the face of a font?': [
+                'Font family',
+                'Font weight',
+                'Font style',
+                'Font type',
+                'Font display',
+
+            ],
+        },
+        {
+            'Which is the default display property in c s s?': [
+                'Static',
+                'Sticky',
+                'Relative',
+                'Fixed',
+                'Absolute',
+
+            ],
+        },
+        {
+            'In c s s which value would you assign to, the overflow property, to stop contents spilling out from its container element?': [
+                'Hidden',
+                'No wrap',
+                'Invisible',
+                'Hide',
+                'Scroll',
+
+            ],
+        },
+        {
+            'The value of, Initial, set on a c s s property normally does what? ': [
+                'Sets the property to its default value.',
+                'Sets the property to a previous value.',
+                'Sets the property to null or zero',
+                'Sets the property to the value of a variable',
+                'The property Initial is only used, in c s s preprocessors',
+
+            ],
+        },
+        {
+            'The c s s resize property does what?': [
+                'defines if and how an element is resizable by the user',
+                'defines if and how an element is resizable by the browser',
+                'Resizes an element by the unit value stated',
+                'Is used for animations',
+                'Only applies to elements where overflow is visible',
+
             ],
         },
     ],
