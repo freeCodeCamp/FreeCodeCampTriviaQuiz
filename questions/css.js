@@ -129,8 +129,7 @@ module.exports = {
                 'Fixed',
             ],
         },
-                    ],
-        },
+       
         {
             'In C s s, how would you group multiple selectors to one rule set?': [
                 'Separate each selector with a comma',
