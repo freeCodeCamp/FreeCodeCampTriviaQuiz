@@ -268,15 +268,6 @@ function handleUserGuess(userGaveUp) {
 function handleUserSubject() {
 
 
-
-	//reset temp variable to zero;
-
-
-
-
-
-
-
 	let choiceArr = [
         'JavaScript'.toLocaleLowerCase(),
         'C s s'.toLocaleLowerCase(),
