@@ -4,11 +4,11 @@
 An Alexa developer quiz skill for the FreeCodeCamp.org community.
 
 ### The Project
-This project is an Alexa skill delivering a developer Q and A session with a choice of subjects. The skill will ask ten questions on your chosen subject and mix in the correct answer with three random incorrect answers from the list of answers provided.
+This project is an Alexa skill delivering a developer Q and A session with a choice of subjects. The skill will ask ten questions on your chosen subject and mix in the correct answer with three random incorrect answers from the list of answers provided and also you should definitely try this.
 
 ### Current Question set files
 This repo currently comes with four question files.
-- Javascript 
+- Javascript
 - CSS
 - General Programming and Networking
 - Random (which is just a master file of the above three).
@@ -43,7 +43,7 @@ If starting with this repo,  click code entry type and select import zip file, o
 
 Make sure to take a copy of your newly created function's Amazon Resource Name (ARN) at the top right of the page, this will need to be pasted into your amazon developer account alexa skills endpoint section to link the skill with the Lambda function. Copy this into the default region field. Your Skill id will also need to be copy and pasted from your developer account to your AWS account in the triggers Alexa skill kit section.
 
-You will then need to add into your developer console the intents named within the function for this repo, add a AnswerIntent  and under 'sample utterances' add {Answer} as a parameter. 
+You will then need to add into your developer console the intents named within the function for this repo, add a AnswerIntent  and under 'sample utterances' add {Answer} as a parameter.
 
 Then under slots add a slot called Answer, and create four values 1,2,3,4 (the answers for each question the skill asks).
 
