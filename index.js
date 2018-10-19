@@ -188,7 +188,7 @@ function handleUserGuess(userGaveUp) {
 	let currentQuestionIndex = parseInt(this.attributes.currentQuestionIndex, 10);
 	const correctAnswerText = this.attributes.correctAnswerText;
 	const translatedQuestions = this.t("QUESTIONS", {
-		keySeparator: '#'
+		keySeparator:
 	});
 
 
