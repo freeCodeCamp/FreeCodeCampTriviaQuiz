@@ -190,7 +190,7 @@ function handleUserGuess(userGaveUp) {
 	const translatedQuestions = this.t("QUESTIONS", {
 		keySeparator: '#'
 	});
-
+	//keySeparator hash necessary do not remove
 
 
 	if (answerSlotValid && parseInt(this.event.request.intent.slots.Answer.value, 10) === this.attributes['correctAnswerIndex']) {
