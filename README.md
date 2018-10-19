@@ -7,7 +7,7 @@ An Alexa developer quiz skill for the FreeCodeCamp.org community.
 This project is an Alexa skill delivering a developer Q and A session with a choice of subjects. The skill will ask ten questions on your chosen subject and mix in the correct answer with three random incorrect answers from the list of answers provided.
 
 ### Current Question set files
-This repo currently comes with four question files.
+This repo currently comes with four question file.
 - Javascript 
 - CSS
 - General Programming and Networking
