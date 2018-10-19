@@ -53,4 +53,4 @@ Utterances like 'Repeat', 'Repeat please' etc will need to be added for this int
 
 ![intents and slots](https://github.com/OcelotDive/FreeCodeCampTriviaQuiz/blob/master/images/slots.PNG)
 
-Finally under invocation set up an invocation to initiate the app when using an Echo or the Alexa simulator.
+Finally under invocation set up an invocation to initiate the app when using an Echo or the Alexa simulator
