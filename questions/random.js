@@ -437,7 +437,80 @@ module.exports = {
             ],
         },
         
-        
+              // New questions added on 11/25/2018
+        {
+            'Which in the following list is valid for the text-transform property ?': [
+                'capitalize',
+                'hidden',
+                'blink',
+                'line-through',
+             ],
+        },
+        {
+            'What is the usage of Pseudo elements in css ?': [
+                'To add special effects to some selectors',
+                'To hide or show an element',
+                'To overlap an element',
+                'To insert content into a page',
+             ],
+        },
+        {
+            'What value is to be used in background-image attribute to avoid repetitive background images in css ?': [
+                'no-repeat',
+                'avoid-repeat',
+                'fixed',
+                '100%',
+             ],
+        },
+        {
+            'What is the usage of cell-padding in css ?': [
+                'To leave the space between the content of cell and border of the cell',
+                'To specify the space between the cells',
+                'To specify the width of the cell',
+                'To specify the height of the cell',
+             ],
+        },
+        {
+            'What is meant by word wrapping in css ?': [
+                'Breaking the long words to next line',
+                'Placing the word inside an element',
+                'Adjusting the width of paragraph tag',
+                'Spacing the letters in a word',
+             ],
+        },
+    
+        {
+            'Which property can be used to give rounded corners to any element in css ?': [
+                'border-radius',
+                'border-width',
+                'border-style',
+                'border-corner',
+             ],
+        },
+        {
+            'What is the use of z-index in css ?': [
+                'To avoid the overlapping of the elements',
+                'To add special effects to some selectors',
+                'To hide or show an element',
+                'To specify the height an element',
+             ],
+        }, 
+        {
+            'Which property is to be used to change color of a text in css ?': [
+                'color',
+                'text-color',
+                'font-color',
+                'font-style',
+             ],
+        }, 
+        {
+            'What is to be used for using Personalized font face in css ?': [
+                '@font-face',
+                '@font-family',
+                '@font-style',
+                '@font',
+             ],
+        }, 
         //end css random GB
         {
             'Which of the following is not a common sorting algorithm?': [
@@ -1090,7 +1163,80 @@ module.exports = {
             ],
         },
    
-           
+               // New questions added on 11/25/2018
+        {
+            'Which in the following list is valid for the text-transform property ?': [
+                'capitalize',
+                'hidden',
+                'blink',
+                'line-through',
+             ],
+        },
+        {
+            'What is the usage of Pseudo elements in css ?': [
+                'To add special effects to some selectors',
+                'To hide or show an element',
+                'To overlap an element',
+                'To insert content into a page',
+             ],
+        },
+        {
+            'What value is to be used in background-image attribute to avoid repetitive background images in css ?': [
+                'no-repeat',
+                'avoid-repeat',
+                'fixed',
+                '100%',
+             ],
+        },
+        {
+            'What is the usage of cell-padding in css ?': [
+                'To leave the space between the content of cell and border of the cell',
+                'To specify the space between the cells',
+                'To specify the width of the cell',
+                'To specify the height of the cell',
+             ],
+        },
+        {
+            'What is meant by word wrapping in css ?': [
+                'Breaking the long words to next line',
+                'Placing the word inside an element',
+                'Adjusting the width of paragraph tag',
+                'Spacing the letters in a word',
+             ],
+        },
+    
+        {
+            'Which property can be used to give rounded corners to any element in css ?': [
+                'border-radius',
+                'border-width',
+                'border-style',
+                'border-corner',
+             ],
+        },
+        {
+            'What is the use of z-index in css ?': [
+                'To avoid the overlapping of the elements',
+                'To add special effects to some selectors',
+                'To hide or show an element',
+                'To specify the height an element',
+             ],
+        }, 
+        {
+            'Which property is to be used to change color of a text in css ?': [
+                'color',
+                'text-color',
+                'font-color',
+                'font-style',
+             ],
+        }, 
+        {
+            'What is to be used for using Personalized font face in css ?': [
+                '@font-face',
+                '@font-family',
+                '@font-style',
+                '@font',
+             ],
+        },   
            
         //end css random US
         {
