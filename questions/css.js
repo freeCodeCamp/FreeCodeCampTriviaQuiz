@@ -214,7 +214,7 @@ module.exports = {
             ],
         },
         {
-            'What value to be used in background-image attribute to avoid repetitive background images in css ?': [
+            'What value is to be used in background-image attribute to avoid repetitive background images in css ?': [
                 'no-repeat',
                 'avoid-repeat',
                 'fixed',
@@ -240,15 +240,7 @@ module.exports = {
 
             ],
         },
-        {
-            'How to add comments in css ?': [
-                'Using /* */',
-                'Using <!-- -->',
-                'Using //',
-                'Using --',
-
-            ],
-        },
+    
         {
             'Which property can be used to give rounded corners to any element in css ?': [
                 'border-radius',
@@ -268,7 +260,7 @@ module.exports = {
             ],
         }, 
         {
-            'Which property to be used to change color of a text in css ?': [
+            'Which property is to be used to change color of a text in css ?': [
                 'color',
                 'text-color',
                 'font-color',
@@ -277,7 +269,7 @@ module.exports = {
             ],
         }, 
         {
-            'What to be used for using Personalized font face in css ?': [
+            'What is to be used for using Personalized font face in css ?': [
                 '@font-face',
                 '@font-family',
                 '@font-style',
@@ -539,7 +531,7 @@ module.exports = {
             ],
         },
         {
-            'What value to be used in background-image attribute to avoid repetitive background images in css ?': [
+            'What value is to be used in background-image attribute to avoid repetitive background images in css ?': [
                 'no-repeat',
                 'avoid-repeat',
                 'fixed',
@@ -565,15 +557,7 @@ module.exports = {
 
             ],
         },
-        {
-            'How to add comments in css ?': [
-                'Using /* */',
-                'Using <!-- -->',
-                'Using //',
-                'Using --',
-
-            ],
-        },
+    
         {
             'Which property can be used to give rounded corners to any element in css ?': [
                 'border-radius',
@@ -593,7 +577,7 @@ module.exports = {
             ],
         }, 
         {
-            'Which property to be used to change color of a text in css ?': [
+            'Which property is to be used to change color of a text in css ?': [
                 'color',
                 'text-color',
                 'font-color',
@@ -602,7 +586,7 @@ module.exports = {
             ],
         }, 
         {
-            'What to be used for using Personalized font face in css ?': [
+            'What is to be used for using Personalized font face in css ?': [
                 '@font-face',
                 '@font-family',
                 '@font-style',
