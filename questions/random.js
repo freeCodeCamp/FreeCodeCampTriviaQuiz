@@ -204,6 +204,108 @@ module.exports = {
 
             ],
         },
+        // new questions added 24/08/19
+          {
+            'Which answer, best describes coercion in javascript?': [
+                'The conversion between two different built in types.',
+                'The merging of two different objects.',
+                'Adding an element to the dom via a triggered event.',
+                'Changing the value of an argument passed to a function.',
+                'Changing a NodeList to an array'
+               
+            ],
+        },
+        {
+            'Which of the following is not a primitive type in javascript?': [
+                'Character.',
+                'String.',
+                'Number.',
+                'Boolean',
+                'Null',
+                'Undefined',
+                'Symbol',
+            ],
+        },
+        {
+            'Which of the following best describes undefined?': [
+                'A variable which has not been initialised.',
+                'A variable which does not exist.',
+                'An unnamed variable',
+                'An element on the page without a class or id',
+            ],
+        },
+        {
+            'Which of the following is not an array method?': [
+                'Assign.',
+                'FindIndex.',
+                'Filter.',
+                'Find.',
+                'Map.',
+                'Reduce.',
+            ],
+        },
+        {
+            'The acronymn pronounced, if e, or, i, i, f, e, stands for what?': [
+                'Immediately invoked function expression.',
+                'Instantly indexed function event.',
+                'Immediately imported framework expressions.',
+                'Immediately inherited function evaluation.',
+                'Instantly indexed file errors.',
+            ],
+        },
+
+        {
+            'What is the generally accepted maximum size of a cookie?': [
+                'Four kilobytes.',
+                'Two kilobytes.',
+                'One gigabyte',
+                'Eight megabytes.',
+                'Seven kilobytes.'
+            ],
+        },
+        {
+            'An arrow function can not be used as?': [
+                'Constructor function.',
+                'Callback function.',
+                'Helper function.',
+                'A function expression.',
+                'Anonymous function.',
+              
+            ],
+        },
+        {
+            'If you were using the get context method, what typically would you be working with?': [
+                'H t m l, canvas element.',
+                'A responsive element.',
+                'C s s, animations.',
+                'H t m l, geolocation.',
+                'A two dimensional array.',
+            ]
+            
+        },
+        {
+            'Which is not a console method?': [
+                'Console dot grid.',
+                'Console dot log.',
+                'Console dot table.',
+                'Console dot group.',
+                'Console dot count.',
+                'Console dot time.', 
+                'Console dot dir.',
+            ]
+        },
+        
+        {
+            'Which is not a characteristic of a pure function?': [
+                'A pure function can only be called within a singleton object to remain unique.',
+                'A pure function always returns the same result given the same arguments.',
+                'Execution of a pure function does not depend on the state of an application.',
+                'Pure functions do not modify variables outside of their own scope.',
+                'Pure functions do not produce side effects.',
+                'A pure function only depends on the arguments passed in to it.', 
+          
+            ]
+        },
         
         
       //end javascript random GB
@@ -511,6 +613,98 @@ module.exports = {
                 '@font',
              ],
         }, 
+        // new questions added 24/08/19
+        
+        {
+            'A  C s s selector using square bracket notation targets, what?': [
+                'An element with a specific attribute.',
+                'An element with inner Html.',
+                'An empty element.',
+                'An element with an image.',
+               
+            ],
+        },
+        {
+            'The Zed-index property will not work on elements with which position?': [
+                'Static.',
+                'Fixed.',
+                'Absolute.',
+                'Relative',
+                'Sticky',
+            ],
+        },
+        {
+            'Which property would be used to add space between an elements border and inner content?': [
+                'Padding',
+                'Outline',
+                'Margin',
+                'Indent',
+            ],
+        },
+        {
+            'Which property would alter the size of an elements border?': [
+                'Border width',
+                'Border size',
+                'Border height',
+                'Border padding',
+            ],
+        },
+
+        {
+            'How would you start a comment in a C s s stylesheet?': [
+                'Forward slash asterisk.',
+                'Forward slash , forward slash.',
+                'Between angle brackets',
+                'Using hash or pound symbol',
+            ],
+        },
+        {
+            'What will be the total space between two adjacently stacked block level elements if, the top element has a bottom margin of thirty pixels, and the lower element has a top margin of twenty pixels?': [
+                'Thirty pixels.',
+                'Twenty pixels.',
+                'Fifty pixels.',
+                'Forty pixels.',
+              
+            ],
+        },
+        {
+            'Which of the following is not a valid C s s border style?': [
+                'Gradient',
+                'Solid',
+                'Dashed',
+                'Outset',
+                'None',
+                'Hidden',
+              
+            ],
+        },
+        {
+            'Which of the following is not a valid C s s unit of measurement?': [
+                'Factor',
+                'Millimeters',
+                'Pica',
+                'Pixels',
+                'Centimeters', 
+            ],
+        },
+        {
+            'Type, Class and ID, deal with which concept in C s s?': [
+                'Specificity',
+                'Box Model',
+                'Positioning',
+                'Cascade',
+                'Flex', 
+            ],
+        },
+        {
+            'Which rule would you use to define a media query in a stylesheet?': [
+                '@ media',
+                '# query',
+                'Universal',
+                '# media',
+                '@ media query', 
+            ],
+        },
         //end css random GB
         {
             'Which of the following is not a common sorting algorithm?': [
@@ -727,7 +921,103 @@ module.exports = {
                 'One way data transfer with encryption',
             ],
         },
+        //new questions added 24/08/19
+              {
+            'What does the S stand for in the solid principles?': [
+                'Single responsibility.',
+                'State listener.',
+                'Semantic versioning.',
+                'Syntax definition.',
+               
+            ],
+        },
+        {
+            'The O in the solid principles stands for?': [
+                'Open closed.',
+                'Object oriented.',
+                'Operator overloading.',
+                'Override',
+                'Optional interface',
+            ],
+        },
+        {
+            'What does the L stand for in the solid principles?': [
+                'Liskov substitution',
+                'Linear time',
+                'Latency detection',
+                'Last in first out',
+            ],
+        },
+        {
+            'The I in the solid principles acronym stands for?': [
+                'Interface segregation',
+                'Inheritance Overriding',
+                'Infinity property',
+                'Internal modifier',
+            ],
+        },
+        {
+            'In relation to the solid principles acronym, what does the D stand for?': [
+                'Dependency inversion',
+                'Data type casting',
+                'Delegate restriction',
+                'Data hiding',
+                'Decision making'
+            ],
+        },
+
+        {
+            'If a method is declared without implementation, and without a body it is considered?': [
+                'An abstract method.',
+                'A constructor method.',
+                'An overloaded method.',
+                'A syntactical error.',
+            ],
+        },
+        {
+            'Which is not an access specifier used in encapsulation.': [
+                'Secured',
+                'Public',
+                'Private',
+                'Internal',
+                'Protected',
+              
+            ],
+        },
+        {
+            'Boxing and unboxing refers to? ': [
+                'Converting a value type to a reference type and vice versa.',
+                'Adding and removing an index to an array',
+                'Transfering values from one method to another',
+                'A way of changing a string to an integer',
+                'Creating an execution context inside of another',
+              
+            ],
+        },
+        
+        {
+            'Which best describes the term constructor? ': [
+                'A constructor is a method which is used to create an object of a given class.',
+                'Only classes with public access contain a constructor.',
+                'A constructor is one of the main principles of object oriented programming.',
+                'The constructor is a method that must have an explicit stated return type.',
+              
+            ],
+        },
+        
+        {
+            'Generally in a programming language, which have highest operator precedence in an expression? ': [
+                'Parenthesis.',
+                'Multiplication and division.',
+                'Addition and subtraction.',
+                'Precedence of operators is given from left to right no matter the operator.',
+                'Precedence is given to anything in double quotes.',
+              
+            ],
+        },
+        
         //end general and networking GB
+        
         
         
     ],
@@ -931,7 +1221,108 @@ module.exports = {
 
             ],
         },
+       // new questions added 24/08/19
+         {
+            'Which answer, best describes coercion in javascript?': [
+                'The conversion between two different built in types.',
+                'The merging of two different objects.',
+                'Adding an element to the dom via a triggered event.',
+                'Changing the value of an argument passed to a function.',
+                'Changing a NodeList to an array'
+               
+            ],
+        },
+        {
+            'Which of the following is not a primitive type in javascript?': [
+                'Character.',
+                'String.',
+                'Number.',
+                'Boolean',
+                'Null',
+                'Undefined',
+                'Symbol',
+            ],
+        },
+        {
+            'Which of the following best describes undefined?': [
+                'A variable which has not been initialised.',
+                'A variable which does not exist.',
+                'An unnamed variable',
+                'An element on the page without a class or id',
+            ],
+        },
+        {
+            'Which of the following is not an array method?': [
+                'Assign.',
+                'FindIndex.',
+                'Filter.',
+                'Find.',
+                'Map.',
+                'Reduce.',
+            ],
+        },
+        {
+            'The acronymn pronounced, if e, or, i, i, f, e, stands for what?': [
+                'Immediately invoked function expression.',
+                'Instantly indexed function event.',
+                'Immediately imported framework expressions.',
+                'Immediately inherited function evaluation.',
+                'Instantly indexed file errors.',
+            ],
+        },
+
+        {
+            'What is the generally accepted maximum size of a cookie?': [
+                'Four kilobytes.',
+                'Two kilobytes.',
+                'One gigabyte',
+                'Eight megabytes.',
+                'Seven kilobytes.'
+            ],
+        },
+        {
+            'An arrow function can not be used as?': [
+                'Constructor function.',
+                'Callback function.',
+                'Helper function.',
+                'A function expression.',
+                'Anonymous function.',
+              
+            ],
+        },
+        {
+            'If you were using the get context method, what typically would you be working with?': [
+                'H t m l, canvas element.',
+                'A responsive element.',
+                'C s s, animations.',
+                'H t m l, geolocation.',
+                'A two dimensional array.',
+            ]
+            
+        },
+        {
+            'Which is not a console method?': [
+                'Console dot grid.',
+                'Console dot log.',
+                'Console dot table.',
+                'Console dot group.',
+                'Console dot count.',
+                'Console dot time.', 
+                'Console dot dir.',
+            ]
+        },
         
+        {
+            'Which is not a characteristic of a pure function?': [
+                'A pure function can only be called within a singleton object to remain unique.',
+                'A pure function always returns the same result given the same arguments.',
+                'Execution of a pure function does not depend on the state of an application.',
+                'Pure functions do not modify variables outside of their own scope.',
+                'Pure functions do not produce side effects.',
+                'A pure function only depends on the arguments passed in to it.', 
+          
+            ]
+        },
       //end javascript random US
        {
             'Which properties do inline elements not possess under normal document flow?': [
@@ -1237,7 +1628,97 @@ module.exports = {
                 '@font',
              ],
         },   
-           
+         // new questions added 24/08/19
+        {
+            'A  C s s selector using square bracket notation targets, what?': [
+                'An element with a specific attribute.',
+                'An element with inner Html.',
+                'An empty element.',
+                'An element with an image.',
+               
+            ],
+        },
+        {
+            'The Zed-index property will not work on elements with which position?': [
+                'Static.',
+                'Fixed.',
+                'Absolute.',
+                'Relative',
+                'Sticky',
+            ],
+        },
+        {
+            'Which property would be used to add space between an elements border and inner content?': [
+                'Padding',
+                'Outline',
+                'Margin',
+                'Indent',
+            ],
+        },
+        {
+            'Which property would alter the size of an elements border?': [
+                'Border width',
+                'Border size',
+                'Border height',
+                'Border padding',
+            ],
+        },
+
+        {
+            'How would you start a comment in a C s s stylesheet?': [
+                'Forward slash asterisk.',
+                'Forward slash , forward slash.',
+                'Between angle brackets',
+                'Using hash or pound symbol',
+            ],
+        },
+        {
+            'What will be the total space between two adjacently stacked block level elements if, the top element has a bottom margin of thirty pixels, and the lower element has a top margin of twenty pixels?': [
+                'Thirty pixels.',
+                'Twenty pixels.',
+                'Fifty pixels.',
+                'Forty pixels.',
+              
+            ],
+        },
+        {
+            'Which of the following is not a valid C s s border style?': [
+                'Gradient',
+                'Solid',
+                'Dashed',
+                'Outset',
+                'None',
+                'Hidden',
+              
+            ],
+        },
+        {
+            'Which of the following is not a valid C s s unit of measurement?': [
+                'Factor',
+                'Millimeters',
+                'Pica',
+                'Pixels',
+                'Centimeters', 
+            ],
+        },
+        {
+            'Type, Class and ID, deal with which concept in C s s?': [
+                'Specificity',
+                'Box Model',
+                'Positioning',
+                'Cascade',
+                'Flex', 
+            ],
+        },
+        {
+            'Which rule would you use to define a media query in a stylesheet?': [
+                '@ media',
+                '# query',
+                'Universal',
+                '# media',
+                '@ media query', 
+            ],
+        },
         //end css random US
         {
             'Which of the following is not a common sorting algorithm?': [
@@ -1452,6 +1933,100 @@ module.exports = {
                 'Two way data transfer but not at the same time',
                 'One way data transfer at high speed',
                 'One way data transfer with encryption',
+            ],
+        },
+        //new questions added 24/08/19
+        {
+            'What does the S stand for in the solid principles?': [
+                'Single responsibility.',
+                'State listener.',
+                'Semantic versioning.',
+                'Syntax definition.',
+               
+            ],
+        },
+        {
+            'The O in the solid principles stands for?': [
+                'Open closed.',
+                'Object oriented.',
+                'Operator overloading.',
+                'Override',
+                'Optional interface',
+            ],
+        },
+        {
+            'What does the L stand for in the solid principles?': [
+                'Liskov substitution',
+                'Linear time',
+                'Latency detection',
+                'Last in first out',
+            ],
+        },
+        {
+            'The I in the solid principles acronym stands for?': [
+                'Interface segregation',
+                'Inheritance Overriding',
+                'Infinity property',
+                'Internal modifier',
+            ],
+        },
+        {
+            'In relation to the solid principles acronym, what does the D stand for?': [
+                'Dependency inversion',
+                'Data type casting',
+                'Delegate restriction',
+                'Data hiding',
+                'Decision making'
+            ],
+        },
+
+        {
+            'If a method is declared without implementation, and without a body it is considered?': [
+                'An abstract method.',
+                'A constructor method.',
+                'An overloaded method.',
+                'A syntactical error.',
+            ],
+        },
+        {
+            'Which is not an access specifier used in encapsulation.': [
+                'Secured',
+                'Public',
+                'Private',
+                'Internal',
+                'Protected',
+              
+            ],
+        },
+        {
+            'Boxing and unboxing refers to? ': [
+                'Converting a value type to a reference type and vice versa.',
+                'Adding and removing an index to an array',
+                'Transfering values from one method to another',
+                'A way of changing a string to an integer',
+                'Creating an execution context inside of another',
+              
+            ],
+        },
+        
+        {
+            'Which best describes the term constructor? ': [
+                'A constructor is a method which is used to create an object of a given class.',
+                'Only classes with public access contain a constructor.',
+                'A constructor is one of the main principles of object oriented programming.',
+                'The constructor is a method that must have an explicit stated return type.',
+              
+            ],
+        },
+        
+        {
+            'Generally in a programming language, which have highest operator precedence in an expression? ': [
+                'Parenthesis.',
+                'Multiplication and division.',
+                'Addition and subtraction.',
+                'Precedence of operators is given from left to right no matter the operator.',
+                'Precedence is given to anything in double quotes.',
+              
             ],
         },
         //end general and networking US

@@ -203,7 +203,108 @@ module.exports = {
 
             ],
         },
-      
+        // new questions added 24/08/19
+          {
+            'Which answer, best describes coercion in javascript?': [
+                'The conversion between two different built in types.',
+                'The merging of two different objects.',
+                'Adding an element to the dom via a triggered event.',
+                'Changing the value of an argument passed to a function.',
+                'Changing a NodeList to an array'
+               
+            ],
+        },
+        {
+            'Which of the following is not a primitive type in javascript?': [
+                'Character.',
+                'String.',
+                'Number.',
+                'Boolean',
+                'Null',
+                'Undefined',
+                'Symbol',
+            ],
+        },
+        {
+            'Which of the following best describes undefined?': [
+                'A variable which has not been initialised.',
+                'A variable which does not exist.',
+                'An unnamed variable',
+                'An element on the page without a class or id',
+            ],
+        },
+        {
+            'Which of the following is not an array method?': [
+                'Assign.',
+                'FindIndex.',
+                'Filter.',
+                'Find.',
+                'Map.',
+                'Reduce.',
+            ],
+        },
+        {
+            'The acronymn pronounced, if e, or, i, i, f, e, stands for what?': [
+                'Immediately invoked function expression.',
+                'Instantly indexed function event.',
+                'Immediately imported framework expressions.',
+                'Immediately inherited function evaluation.',
+                'Instantly indexed file errors.',
+            ],
+        },
+
+        {
+            'What is the generally accepted maximum size of a cookie?': [
+                'Four kilobytes.',
+                'Two kilobytes.',
+                'One gigabyte',
+                'Eight megabytes.',
+                'Seven kilobytes.'
+            ],
+        },
+        {
+            'An arrow function can not be used as?': [
+                'Constructor function.',
+                'Callback function.',
+                'Helper function.',
+                'A function expression.',
+                'Anonymous function.',
+              
+            ],
+        },
+        {
+            'If you were using the get context method, what typically would you be working with?': [
+                'H t m l, canvas element.',
+                'A responsive element.',
+                'C s s, animations.',
+                'H t m l, geolocation.',
+                'A two dimensional array.',
+            ]
+            
+        },
+        {
+            'Which is not a console method?': [
+                'Console dot grid.',
+                'Console dot log.',
+                'Console dot table.',
+                'Console dot group.',
+                'Console dot count.',
+                'Console dot time.', 
+                'Console dot dir.',
+            ]
+        },
+        
+        {
+            'Which is not a characteristic of a pure function?': [
+                'A pure function can only be called within a singleton object to remain unique.',
+                'A pure function always returns the same result given the same arguments.',
+                'Execution of a pure function does not depend on the state of an application.',
+                'Pure functions do not modify variables outside of their own scope.',
+                'Pure functions do not produce side effects.',
+                'A pure function only depends on the arguments passed in to it.', 
+          
+            ]
+        },
      
 
     ],
@@ -406,7 +507,109 @@ module.exports = {
 
             ],
         },
+        // new questions added 24/08/19
         
+          {
+            'Which answer, best describes coercion in javascript?': [
+                'The conversion between two different built in types.',
+                'The merging of two different objects.',
+                'Adding an element to the dom via a triggered event.',
+                'Changing the value of an argument passed to a function.',
+                'Changing a NodeList to an array'
+               
+            ],
+        },
+        {
+            'Which of the following is not a primitive type in javascript?': [
+                'Character.',
+                'String.',
+                'Number.',
+                'Boolean',
+                'Null',
+                'Undefined',
+                'Symbol',
+            ],
+        },
+        {
+            'Which of the following best describes undefined?': [
+                'A variable which has not been initialised.',
+                'A variable which does not exist.',
+                'An unnamed variable',
+                'An element on the page without a class or id',
+            ],
+        },
+        {
+            'Which of the following is not an array method?': [
+                'Assign.',
+                'FindIndex.',
+                'Filter.',
+                'Find.',
+                'Map.',
+                'Reduce.',
+            ],
+        },
+        {
+            'The acronymn pronounced, if e, or, i, i, f, e, stands for what?': [
+                'Immediately invoked function expression.',
+                'Instantly indexed function event.',
+                'Immediately imported framework expressions.',
+                'Immediately inherited function evaluation.',
+                'Instantly indexed file errors.',
+            ],
+        },
+
+        {
+            'What is the generally accepted maximum size of a cookie?': [
+                'Four kilobytes.',
+                'Two kilobytes.',
+                'One gigabyte',
+                'Eight megabytes.',
+                'Seven kilobytes.'
+            ],
+        },
+        {
+            'An arrow function can not be used as?': [
+                'Constructor function.',
+                'Callback function.',
+                'Helper function.',
+                'A function expression.',
+                'Anonymous function.',
+              
+            ],
+        },
+        {
+            'If you were using the get context method, what typically would you be working with?': [
+                'H t m l, canvas element.',
+                'A responsive element.',
+                'C s s, animations.',
+                'H t m l, geolocation.',
+                'A two dimensional array.',
+            ]
+            
+        },
+        {
+            'Which is not a console method?': [
+                'Console dot grid.',
+                'Console dot log.',
+                'Console dot table.',
+                'Console dot group.',
+                'Console dot count.',
+                'Console dot time.', 
+                'Console dot dir.',
+            ]
+        },
+        
+        {
+            'Which is not a characteristic of a pure function?': [
+                'A pure function can only be called within a singleton object to remain unique.',
+                'A pure function always returns the same result given the same arguments.',
+                'Execution of a pure function does not depend on the state of an application.',
+                'Pure functions do not modify variables outside of their own scope.',
+                'Pure functions do not produce side effects.',
+                'A pure function only depends on the arguments passed in to it.', 
+          
+            ]
+        },
         
     ],
    
