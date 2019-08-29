@@ -221,6 +221,100 @@ module.exports = {
                 'One way data transfer with encryption',
             ],
         },
+        // new questions added 24/08/19
+            {
+            'What does the S stand for in the solid principles?': [
+                'Single responsibility.',
+                'State listener.',
+                'Semantic versioning.',
+                'Syntax definition.',
+               
+            ],
+        },
+        {
+            'The O in the solid principles stands for?': [
+                'Open closed.',
+                'Object oriented.',
+                'Operator overloading.',
+                'Override',
+                'Optional interface',
+            ],
+        },
+        {
+            'What does the L stand for in the solid principles?': [
+                'Liskov substitution',
+                'Linear time',
+                'Latency detection',
+                'Last in first out',
+            ],
+        },
+        {
+            'The I in the solid principles acronym stands for?': [
+                'Interface segregation',
+                'Inheritance Overriding',
+                'Infinity property',
+                'Internal modifier',
+            ],
+        },
+        {
+            'In relation to the solid principles acronym, what does the D stand for?': [
+                'Dependency inversion',
+                'Data type casting',
+                'Delegate restriction',
+                'Data hiding',
+                'Decision making'
+            ],
+        },
+
+        {
+            'If a method is declared without implementation, and without a body it is considered?': [
+                'An abstract method.',
+                'A constructor method.',
+                'An overloaded method.',
+                'A syntactical error.',
+            ],
+        },
+        {
+            'Which is not an access specifier used in encapsulation.': [
+                'Secured',
+                'Public',
+                'Private',
+                'Internal',
+                'Protected',
+              
+            ],
+        },
+        {
+            'Boxing and unboxing refers to? ': [
+                'Converting a value type to a reference type and vice versa.',
+                'Adding and removing an index to an array',
+                'Transfering values from one method to another',
+                'A way of changing a string to an integer',
+                'Creating an execution context inside of another',
+              
+            ],
+        },
+        
+        {
+            'Which best describes the term constructor? ': [
+                'A constructor is a method which is used to create an object of a given class.',
+                'Only classes with public access contain a constructor.',
+                'A constructor is one of the main principles of object oriented programming.',
+                'The constructor is a method that must have an explicit stated return type.',
+              
+            ],
+        },
+        
+        {
+            'Generally in a programming language, which have highest operator precedence in an expression? ': [
+                'Parenthesis.',
+                'Multiplication and division.',
+                'Addition and subtraction.',
+                'Precedence of operators is given from left to right no matter the operator.',
+                'Precedence is given to anything in double quotes.',
+              
+            ],
+        },
       
      
 
@@ -439,6 +533,101 @@ module.exports = {
                 'Two way data transfer but not at the same time',
                 'One way data transfer at high speed',
                 'One way data transfer with encryption',
+            ],
+        },
+        // new questions added 24/08/19
+        
+            {
+            'What does the S stand for in the solid principles?': [
+                'Single responsibility.',
+                'State listener.',
+                'Semantic versioning.',
+                'Syntax definition.',
+               
+            ],
+        },
+        {
+            'The O in the solid principles stands for?': [
+                'Open closed.',
+                'Object oriented.',
+                'Operator overloading.',
+                'Override',
+                'Optional interface',
+            ],
+        },
+        {
+            'What does the L stand for in the solid principles?': [
+                'Liskov substitution',
+                'Linear time',
+                'Latency detection',
+                'Last in first out',
+            ],
+        },
+        {
+            'The I in the solid principles acronym stands for?': [
+                'Interface segregation',
+                'Inheritance Overriding',
+                'Infinity property',
+                'Internal modifier',
+            ],
+        },
+        {
+            'In relation to the solid principles acronym, what does the D stand for?': [
+                'Dependency inversion',
+                'Data type casting',
+                'Delegate restriction',
+                'Data hiding',
+                'Decision making'
+            ],
+        },
+
+        {
+            'If a method is declared without implementation, and without a body it is considered?': [
+                'An abstract method.',
+                'A constructor method.',
+                'An overloaded method.',
+                'A syntactical error.',
+            ],
+        },
+        {
+            'Which is not an access specifier used in encapsulation.': [
+                'Secured',
+                'Public',
+                'Private',
+                'Internal',
+                'Protected',
+              
+            ],
+        },
+        {
+            'Boxing and unboxing refers to? ': [
+                'Converting a value type to a reference type and vice versa.',
+                'Adding and removing an index to an array',
+                'Transfering values from one method to another',
+                'A way of changing a string to an integer',
+                'Creating an execution context inside of another',
+              
+            ],
+        },
+        
+        {
+            'Which best describes the term constructor? ': [
+                'A constructor is a method which is used to create an object of a given class.',
+                'Only classes with public access contain a constructor.',
+                'A constructor is one of the main principles of object oriented programming.',
+                'The constructor is a method that must have an explicit stated return type.',
+              
+            ],
+        },
+        
+        {
+            'Generally in a programming language, which have highest operator precedence in an expression? ': [
+                'Parenthesis.',
+                'Multiplication and division.',
+                'Addition and subtraction.',
+                'Precedence of operators is given from left to right no matter the operator.',
+                'Precedence is given to anything in double quotes.',
+              
             ],
         },
     ],
