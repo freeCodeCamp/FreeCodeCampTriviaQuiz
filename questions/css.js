@@ -16,7 +16,7 @@ module.exports = {
             ],
         },
         {
-            'Which keyword would you add to the end of a style rule to override another C s s style for a specific element?': [
+            'Which keyword would you add at the end of a style rule to override another CSS style for a specific element?': [
                 'important',
                 'override All',
                 'vital',
@@ -27,7 +27,7 @@ module.exports = {
             ],
         },
         {
-            'Which is not considered a  c s s preprocessor?': [
+            'Which is not considered as a CSS preprocessor?': [
                 'Express',
                 'Sass',
                 'Less',
@@ -35,7 +35,7 @@ module.exports = {
             ],
         },
         {
-            'Which is not a property of the C s s Box Model?': [
+            'Which of the following is not a property of the CSS Box Model?': [
                 'Outline',
                 'Border',
                 'Padding',
@@ -44,7 +44,7 @@ module.exports = {
             ],
         },
         {
-            'Using which Css Selector is it possible to select every element in a document. ': [
+            'Using which CSS Selector, is it possible to select every element in a document? ': [
                 'Universal',
                 'Body',
                 'Wildcard',
@@ -55,7 +55,7 @@ module.exports = {
         },
 
         {
-            'Which is not a valid C s s font size?': [
+            'Which is not a valid CSS font size?': [
                 'nodes',
                 'em',
                 'Percentage',
@@ -63,7 +63,7 @@ module.exports = {
             ],
         },
         {
-            'The C s s clear property fulfills which task?': [
+            'The CSS clear property fulfills which task?': [
                 'Sets which sides of an element, floating elements are not allowed to be floated',
                 'Positions an element clear of a siblings margins and borders',
                 'Prevents prior properties of the selector from taking effect',
@@ -72,7 +72,7 @@ module.exports = {
             ],
         },
         {
-            'An entire C s s selector and declaration block whithin a C s s document is referred to as .': [
+            'An entire CSS selector and declaration block whithin a C s s document is referred to as .': [
                 'Ruleset',
                 'Selector Group',
                 'Selection Properties',
