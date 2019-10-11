@@ -36,6 +36,15 @@ module.exports = {
             ],
         },
         {
+            'Inside which HTML element do we put the JavaScript?':[
+                '<js>',
+                '<scripting>',
+                '<script>',
+                '<javascript>'
+                
+            ],
+        },
+        {
             'In which of the following can you expect to see the require function?': [
                 'Node j s',
                 'Vanilla Javascript',
