@@ -1,6 +1,6 @@
 ![freeCodeCamp image](https://github.com/freecodecamp/freeCodeCampTriviaQuiz/blob/master/images/ffc.jpeg)
 
-# FreeCodeCampTriviaQuiz
+# FreeCodeCamp Trivia Quiz
 An Alexa developer quiz skill for the FreeCodeCamp.org community.
 
 ### The Project
@@ -18,39 +18,41 @@ This repo currently comes with four question files.
 - English (UK)
 
 ### Testing and Debugging
-When testing with the Alexa simulator in the Amazon developer console, if you recieve a 'Problem with the request response' error.
+You can test the quiz skill with the Alexa simulator in the Amazon developer console. If you recieve a `Problem with the request response` error:
 
-Copy and paste the Json output from the simulator. Back in AWS choose configure test events from the drop down at the top and paste in the  Json output, name the test event and save.
+1. Copy and paste the JSON output from the simulator into a temporary text file (Notepad, e.g.). 
+2. Go back to AWS. 
+3. Choose `configure test events` from the drop-down menu at the top of the screen.
+4. Paste the JSON output into the form.
+5. Name the test event.
+6. Save.
 
 The information provided from the test debug results can save a lot of time blindly searching for the cause of any error.
 
-The newly developed skill will also be available for you to test with your voice activated device. Amazon will automatically transfer your under-development skill to the online version of the Alexa app http://alexa.amazon.com Sign in with your Amazon account and you can enable for your device just like any other skill.
+#### Voice-activated Testing
+You can also test the newly developed skill with your voice-activated device. Amazon will automatically transfer your under-development skill to the [online version of the Alexa app](http://alexa.amazon.com). 
+
+Sign in with your Amazon account and you can enable for your device just like any other skill.
 
 ### How to deploy to AWS Lambda
-First off setup of an Amazon developer console account is required. https://developer.amazon.com/
-
-This is super easy if you are already signed up to an amazon account.
-
-Next an Amazon Web Services account is also needed to set up a new Lambda function or alter an existing one. https://aws.amazon.com/
-
-After creating and naming a Lambda function click on add triggers and from the list select Alexa skills kit.
+Complete the following steps to deploy the Trivia Quiz skill as a Lambda function:
+1. Set up an [Amazon developer console account](https://developer.amazon.com/) if you do not already have one. This step is super easy if you are already signed up to an amazon account.
+2. Set up an [Amazon Web Services account](https://aws.amazon.com/) if you do not already have one. You will need this account to set up a new Lambda function or to alter an existing one. 
+3. Create and name a Lambda function.
+4. Click on `add triggers` and from the list select `Alexa skills kit`.
 
 ![adding triggers](https://github.com/OcelotDive/FreeCodeCampTriviaQuiz/blob/master/images/awsTriggers.PNG)
 
-You will also have to create an execution role from the drop down, if it is the first time creating a function choose custom role and follow the instructions.
-
-If starting with this repo,  click code entry type and select import zip file, otherwise a Lambda blueprint can be used to bootstrap the function rather than start from scratch.
-
-Make sure to take a copy of your newly created function's Amazon Resource Name (ARN) at the top right of the page, this will need to be pasted into your amazon developer account Alexa skills endpoint section to link the skill with the Lambda function. Copy this into the default region field. Your Skill id will also need to be copy and pasted from your developer account to your AWS account in the triggers Alexa skill kit section.
-
-You will then need to add into your developer console the intents named within the function for this repo, add a AnswerIntent  and under 'sample utterances' add {Answer} as a parameter. 
-
-Then under slots add a slot called Answer, and create four values 1,2,3,4 (the answers for each question the skill asks).
-
-Back to AnswerIntent and add a slot called Answer with the slot type drop down set to Answer the slot just created. At the time of writing this a built-in repeat intent may need to be added also as this is not always included by default.
-
-Utterances like 'Repeat', 'Repeat please' etc will need to be added for this intent.
+5. Create an execution role from the drop-down menu. If you are creating your first function, choose `custom role` and follow the instructions.
+6. If starting with this repo, click `code entry type` and select `import zip file`. Otherwise, you can use a Lambda blueprint to bootstrap the function rather than start from scratch.
+7. Copy the text of your newly created function's Amazon Resource Name (ARN) at the top right of the page. 
+8. Paste the ARN into your Amazon developer account's Alexa skills endpoint section to link the skill with the Lambda function. Paste the ARN into the default region field. 
+9. Copy and paste the Skill ID from your developer account to your AWS account in the triggers Alexa skill kit section.
+10. Add into your developer console the intents named within the function for this repo: add an AnswerIntent, and under `sample utterances` add `{Answer}` as a parameter. 
+11. Under slots add a slot called Answer, and create four values 1,2,3,4 (the answers for each question the skill asks).
+12. Go back to AnswerIntent and add a slot called Answer with the slot-type drop down set to Answer the slot just created. At the time of writing this built-in repeat intent may need to be added also as this is not always included by default.
+13. Add utterances like `Repeat`, `Repeat please`, etc. for this intent.
 
 ![intents and slots](https://github.com/OcelotDive/FreeCodeCampTriviaQuiz/blob/master/images/slots.PNG)
 
-Finally under invocation set up an invocation to initiate the app when using an Echo or the Alexa simulator.
+14. Under Invocation set up an invocation to initiate the app when using an Echo or the Alexa simulator.
