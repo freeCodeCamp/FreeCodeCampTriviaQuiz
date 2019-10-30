@@ -18,7 +18,7 @@ This repo currently comes with four question files.
 - English (UK)
 
 ### Testing and Debugging
-You can test the quiz skill with the Alexa simulator in the Amazon developer console. If you recieve a `Problem with the request response` error:
+You can test the quiz skill with the Alexa simulator in the Amazon developer console. If you receive a `Problem with the request-response` error:
 
 1. Copy and paste the JSON output from the simulator into a temporary text file (Notepad, e.g.). 
 2. Go back to AWS. 
