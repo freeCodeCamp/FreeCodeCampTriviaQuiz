@@ -32,7 +32,7 @@ const languageString = {
   'en': {
     'translation': {
       'QUESTIONS': randomquestions['QUESTIONS_EN_US'],
-      'GAME_NAME': 'Travis Virgil Quiz', // Be sure to change this for your skill.
+      'GAME_NAME': 'Free Code Camp Developer Quiz', // Be sure to change this for your skill.
       'HELP_MESSAGE': 'I will ask you %s multiple choice questions on the subject of your choosing. Respond with the number of the answer. ' +
 				'For example, say one, two, three, or four. To start a new game at any time, say, start game. ',
       'REPEAT_QUESTION_MESSAGE': 'To repeat the last question, say, repeat. ',
@@ -61,7 +61,7 @@ const languageString = {
   'en-US': {
     'translation': {
       'QUESTIONS': randomquestions['QUESTIONS_EN_US'],
-      'GAME_NAME': 'Travis Virgil Quiz' // Be sure to change this for your skill.
+      'GAME_NAME': 'Free Code Camp Developer Quiz' // Be sure to change this for your skill.
     }
   }
 }
@@ -281,7 +281,7 @@ const setupStateHandlers = Alexa.CreateStateHandler(GAME_STATES.SETUP, {
   'SetUp': function () {
     temp = 0
 
-    this.emit(':ask', 'Welcome to the Travis Virgil Quiz. Choose the subject you would like to test on. Just say One, for JavaScript ,two, for C s s ,three, for H t m l ,four, for General programming and networking, or five, for random mode. The default, is Random mode', 'Choose the subject you would like to test on. Just say One, for JavaScript ,two, for C s s ,three, for H t m l ,four, for General programming and networking, or five, for random mode. The default, is Random mode')
+    this.emit(':ask', 'Welcome to the Free Code Camp Developer Quiz. Choose the subject you would like to test on. Just say One, for JavaScript ,two, for C s s ,three, for H t m l ,four, for General programming and networking, or five, for random mode. The default, is Random mode', 'Choose the subject you would like to test on. Just say One, for JavaScript ,two, for C s s ,three, for H t m l ,four, for General programming and networking, or five, for random mode. The default, is Random mode')
   },
   'AnswerIntent': function () {
     handleUserSubject.call(this, false)
