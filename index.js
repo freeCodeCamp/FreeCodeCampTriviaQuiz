@@ -260,12 +260,12 @@ function handleUserSubject () {
     languageString['en']['translation']['QUESTIONS'] = htmlquestions['QUESTIONS_EN_US']
     languageString['en-US']['translation']['QUESTIONS'] = htmlquestions['QUESTIONS_EN_US']
 
+      break
     case (4):
       languageString['en']['translation']['QUESTIONS'] = generalquestions['QUESTIONS_EN_US']
       languageString['en-US']['translation']['QUESTIONS'] = generalquestions['QUESTIONS_EN_US']
 
       break
-
     case (5):
       languageString['en']['translation']['QUESTIONS'] = randomquestions['QUESTIONS_EN_US']
       languageString['en-US']['translation']['QUESTIONS'] = randomquestions['QUESTIONS_EN_US']
