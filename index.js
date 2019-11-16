@@ -232,6 +232,7 @@ function handleUserSubject () {
   const choiceArr = [
     'JavaScript'.toLocaleLowerCase(),
     'C s s'.toLocaleLowerCase(),
+    'H t m l'.toLocaleLowerCase(),
     'General and networking'.toLocaleLowerCase(),
     'Random topics'.toLocaleLowerCase()
 
@@ -280,7 +281,7 @@ const setupStateHandlers = Alexa.CreateStateHandler(GAME_STATES.SETUP, {
   'SetUp': function () {
     temp = 0
 
-    this.emit(':ask', 'Welcome to the Travis Virgil Quiz. Choose the subject you would like to test on. Just say One, for JavaScript ,two, for C s s ,three, for General programming and networking, or four, for random mode. The default, is Random mode', 'Choose the subject you would like to test on. Just say One, for JavaScript ,two, for C s s ,three, for General programming and networking, or four, for random mode. The default, is Random mode')
+    this.emit(':ask', 'Welcome to the Travis Virgil Quiz. Choose the subject you would like to test on. Just say One, for JavaScript ,two, for C s s ,three, for H t m l ,four, for General programming and networking, or five, for random mode. The default, is Random mode', 'Choose the subject you would like to test on. Just say One, for JavaScript ,two, for C s s ,three, for General programming and networking, or four, for random mode. The default, is Random mode')
   },
   'AnswerIntent': function () {
     handleUserSubject.call(this, false)
