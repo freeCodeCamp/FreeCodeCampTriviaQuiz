@@ -190,9 +190,6 @@ module.exports = {
                 'i',
             ],
         },
-        {
-            
-        },
     ],
     QUESTIONS_EN_US: [
         {
@@ -378,9 +375,6 @@ module.exports = {
                 'b',
                 'i',
             ],
-        },
-        {
-            
         },
     ],
 };
