@@ -8,6 +8,7 @@
 const Alexa = require('alexa-sdk')
 
 const cssquestions = require('./questions/css')
+const htmlquestions = require('./questions/html')
 const javascriptquestions = require('./questions/javascript')
 const generalquestions = require('./questions/general')
 const randomquestions = require('./questions/random')
@@ -231,6 +232,7 @@ function handleUserSubject () {
   const choiceArr = [
     'JavaScript'.toLocaleLowerCase(),
     'C s s'.toLocaleLowerCase(),
+    'H t m l'.toLocaleLowerCase(),
     'General and networking'.toLocaleLowerCase(),
     'Random topics'.toLocaleLowerCase()
 
@@ -254,14 +256,17 @@ function handleUserSubject () {
       languageString['en-US']['translation']['QUESTIONS'] = cssquestions['QUESTIONS_EN_US']
 
       break
-
     case (3):
+    languageString['en']['translation']['QUESTIONS'] = htmlquestions['QUESTIONS_EN_US']
+    languageString['en-US']['translation']['QUESTIONS'] = htmlquestions['QUESTIONS_EN_US']
+
+      break
+    case (4):
       languageString['en']['translation']['QUESTIONS'] = generalquestions['QUESTIONS_EN_US']
       languageString['en-US']['translation']['QUESTIONS'] = generalquestions['QUESTIONS_EN_US']
 
       break
-
-    case (4):
+    case (5):
       languageString['en']['translation']['QUESTIONS'] = randomquestions['QUESTIONS_EN_US']
       languageString['en-US']['translation']['QUESTIONS'] = randomquestions['QUESTIONS_EN_US']
 
@@ -276,7 +281,7 @@ const setupStateHandlers = Alexa.CreateStateHandler(GAME_STATES.SETUP, {
   'SetUp': function () {
     temp = 0
 
-    this.emit(':ask', 'Welcome to Free Code Camp Developer Quiz. Choose the subject you would like to test on. Just say One, for JavaScript ,two, for C s s ,three, for General programming and networking, or four, for random mode. The default, is Random mode', 'Choose the subject you would like to test on. Just say One, for JavaScript ,two, for C s s ,three, for General programming and networking, or four, for random mode. The default, is Random mode')
+    this.emit(':ask', 'Welcome to the Free Code Camp Developer Quiz. Choose the subject you would like to test on. Just say One, for JavaScript ,two, for C s s ,three, for H t m l ,four, for General programming and networking, or five, for random mode. The default, is Random mode', 'Choose the subject you would like to test on. Just say One, for JavaScript ,two, for C s s ,three, for H t m l ,four, for General programming and networking, or five, for random mode. The default, is Random mode')
   },
   'AnswerIntent': function () {
     handleUserSubject.call(this, false)
