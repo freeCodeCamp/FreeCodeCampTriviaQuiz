@@ -1204,6 +1204,87 @@ module.exports = {
                 'i',
             ],
         },
+        // New questions added 11/21/2019
+        {
+            'What tag is useful for incerting citations?': [
+                'blockquote',
+                'q',
+                'strong',
+                'i',
+            ],
+        },
+        {
+            'What tag is useful for inline quotes?': [
+                'q',
+                'blockquote',
+                'em',
+                'pre',
+            ],
+        },
+        {
+            'What tag is used to prevent white space collapsing amd make it a block element?': [
+                'pre',
+                'blockquote',
+                'strong',
+                'hr',
+            ],
+        },
+        {
+            'What type of list tag is used when creating a numbered list?': [
+                'ordered',
+                'unordered',
+                'definition',
+                'structured',
+            ],
+        },
+        {
+            'What is the purpose of the mark tag?': [
+                'Renders text highlighted for reference',
+                'Represents a range of text that has been deleted from the document',
+                'Represents a range of text that has been added to the document',
+                'Represents side comments and small print',
+            ],
+        },
+        {
+            'What does the sup tag do?': [
+                'Specifies text that is to be displayed as a superscript',
+                'Specifies text that is to be displayed as a subscript',
+                'Represents a range of text to be italicized',
+                'Renders text highlighted for reference',
+            ],
+        },
+        {
+            'Which tag is used to display text as a subscript?': [
+                'sub',
+                'sup',
+                'small',
+                'mark',
+            ],
+        },
+        {
+            'What tag is used to render text italicized without emphasis?': [
+                'i',
+                'em',
+                'strong',
+                'b',
+            ],
+        },
+        {
+            'Which tag renders text bold, but does not indicate importance?': [
+                'b',
+                'strong',
+                'em',
+                'sub',
+            ],
+        },
+        {
+            'How does the browser render each list item in an unordered list?': [
+                'bullet points',
+                'numbered',
+                'indented only',
+                'In a row separated by commas'
+            ],
+        },
         
         //end html
     ],
@@ -2403,7 +2484,87 @@ module.exports = {
                 'i',
             ],
         },  
-        
+        // New questions added 11/21/2019
+        {
+            'What tag is useful for incerting citations?': [
+                'blockquote',
+                'q',
+                'strong',
+                'i',
+            ],
+        },
+        {
+            'What tag is useful for inline quotes?': [
+                'q',
+                'blockquote',
+                'em',
+                'pre',
+            ],
+        },
+        {
+            'What tag is used to prevent white space collapsing amd make it a block element?': [
+                'pre',
+                'blockquote',
+                'strong',
+                'hr',
+            ],
+        },
+        {
+            'What type of list tag is used when creating a numbered list?': [
+                'ordered',
+                'unordered',
+                'definition',
+                'structured',
+            ],
+        },
+        {
+            'What is the purpose of the mark tag?': [
+                'Renders text highlighted for reference',
+                'Represents a range of text that has been deleted from the document',
+                'Represents a range of text that has been added to the document',
+                'Represents side comments and small print',
+            ],
+        },
+        {
+            'What does the sup tag do?': [
+                'Specifies text that is to be displayed as a superscript',
+                'Specifies text that is to be displayed as a subscript',
+                'Represents a range of text to be italicized',
+                'Renders text highlighted for reference',
+            ],
+        },
+        {
+            'Which tag is used to display text as a subscript?': [
+                'sub',
+                'sup',
+                'small',
+                'mark',
+            ],
+        },
+        {
+            'What tag is used to render text italicized without emphasis?': [
+                'i',
+                'em',
+                'strong',
+                'b',
+            ],
+        },
+        {
+            'Which tag renders text bold, but does not indicate importance?': [
+                'b',
+                'strong',
+                'em',
+                'sub',
+            ],
+        },
+        {
+            'How does the browser render each list item in an unordered list?': [
+                'bullet points',
+                'numbered',
+                'indented only',
+                'In a row separated by commas'
+            ],
+        },
 //end
     ],
     
