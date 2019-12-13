@@ -1,16 +1,21 @@
 {
-  "name": "alexa-skill-kit-sdk-triviaskill",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "alexa-sdk": "^1.0.25"
+  "name": "free code camp quiz",
+  "version": "2.0.0",
+  "description": "developer trivia quiz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "eslint": "^6.5.1",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+  "keywords": [
+    "alexa",
+    "skill",
+    "trivia"
+  ],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "ask-sdk": "^2.0.0",
+    "i18next": "^10.6.0",
+    "i18next-sprintf-postprocessor": "^0.2.2"
   }
 }
